@@ -12,8 +12,15 @@ namespace BookstoreProject.Pages
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 3 "/Users/janae/Projects/BookstoreProject/BookstoreProject/Pages/_ViewImports.cshtml"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f3df5e08b5ab37d21c2b4499bf56a93b770a0182", @"/Pages/_ShopLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dfdb6a0d04c102cfc930168265b81f7d244655f1", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"db7a77418ab9d993d88a3e4fb77a659b183ecdd9", @"/Pages/_ViewImports.cshtml")]
     public class Pages__ShopLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -42,7 +49,7 @@ namespace BookstoreProject.Pages
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\n\n<html>\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3df5e08b5ab37d21c2b4499bf56a93b770a01822854", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3df5e08b5ab37d21c2b4499bf56a93b770a01823038", async() => {
                 WriteLiteral("\n    <meta name=\"viewport\" content=\"width=device-width\" />\n    <title>");
 #nullable restore
 #line 6 "/Users/janae/Projects/BookstoreProject/BookstoreProject/Pages/_ShopLayout.cshtml"
@@ -64,7 +71,7 @@ namespace BookstoreProject.Pages
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3df5e08b5ab37d21c2b4499bf56a93b770a01824330", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3df5e08b5ab37d21c2b4499bf56a93b770a01824514", async() => {
                 WriteLiteral("\n    <div class=\"bg-dark text-white p-2\">\n         <span class=\"navbar-brand ml-2\">The Old Bookstore</span>\n    </div>\n\n    <div class=\"row m-1 p-1\">\n        ");
 #nullable restore
 #line 16 "/Users/janae/Projects/BookstoreProject/BookstoreProject/Pages/_ShopLayout.cshtml"

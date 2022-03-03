@@ -33,8 +33,15 @@ using BookstoreProject.Infrastructure;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 7 "/Users/janae/Projects/BookstoreProject/BookstoreProject/Views/_ViewImports.cshtml"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b8ff5258f0e7879cdb2db2ded2f3a47dfc58b871", @"/Views/Shared/Components/Types/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"20a86cdb52216cf0a4c2a4419d17c9b963a5d6be", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"124e3462cc029d29d8821f7e6726bffb392b4b3f", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Types_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<string>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -67,7 +74,7 @@ using BookstoreProject.Infrastructure;
         {
             WriteLiteral("\n");
             WriteLiteral("\n<div class=\"d-grid gap-2\">\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8ff5258f0e7879cdb2db2ded2f3a47dfc58b8714697", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8ff5258f0e7879cdb2db2ded2f3a47dfc58b8714881", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -113,7 +120,7 @@ AddHtmlAttributeValue(" ", 177, ViewBag.SelectedType == null ? "btn-primary" : "
 #line hidden
 #nullable disable
             WriteLiteral("        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8ff5258f0e7879cdb2db2ded2f3a47dfc58b8717698", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8ff5258f0e7879cdb2db2ded2f3a47dfc58b8717882", async() => {
 #nullable restore
 #line 12 "/Users/janae/Projects/BookstoreProject/BookstoreProject/Views/Shared/Components/Types/Default.cshtml"
                                                                                                     Write(t);

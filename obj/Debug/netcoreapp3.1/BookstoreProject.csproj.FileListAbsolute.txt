@@ -77,3 +77,7 @@
 /Users/janae/Projects/BookstoreProject/BookstoreProject/obj/Debug/netcoreapp3.1/Razor/Pages/_ShopLayout.cshtml.g.cs
 /Users/janae/Projects/BookstoreProject/BookstoreProject/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
 /Users/janae/Projects/BookstoreProject/BookstoreProject/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/janae/Projects/BookstoreProject/BookstoreProject/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs
+/Users/janae/Projects/BookstoreProject/BookstoreProject/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseConfirmation.cshtml.g.cs
+/Users/janae/Projects/BookstoreProject/BookstoreProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/CartSummary/Default.cshtml.g.cs
+/Users/janae/Projects/BookstoreProject/BookstoreProject/bin/Debug/netcoreapp3.1/wwwroot/lib/font-awesome-4.7.0/css/font-awesome.min.css

@@ -374,5 +374,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/Users/janae/.nuget/packages/microsoft.entityframeworkcore.tools/3.1.22</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <Pkgfont-awesome Condition=" '$(Pkgfont-awesome)' == '' ">/Users/janae/.nuget/packages/font-awesome/3.2.1.1</Pkgfont-awesome>
   </PropertyGroup>
 </Project>
