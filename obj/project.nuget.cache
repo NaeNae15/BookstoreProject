@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "x/nMN09nb+3i/bG4nRalZrkHStk/K8J6RXuwUxg1II5qS8PZX7oc7urkskWJr/nePxE/ansEa1URsau5B5vfKA==",
+  "dgSpecHash": "3QH6Xs0vM0DeepoUVygmF6aac8afnnnk7Pc/wkPhwvHPuQytFHZE+Ff91bkmrfkiJoxo2PXWn5Y9qNXn79/U8g==",
   "success": true,
   "projectFilePath": "/Users/janae/Desktop/BookstoreProject-Mission_9/BookstoreProject.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "/Users/janae/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.22/microsoft.extensions.logging.abstractions.3.1.22.nupkg.sha512",
     "/Users/janae/.nuget/packages/microsoft.extensions.options/3.1.22/microsoft.extensions.options.3.1.22.nupkg.sha512",
     "/Users/janae/.nuget/packages/microsoft.extensions.primitives/3.1.22/microsoft.extensions.primitives.3.1.22.nupkg.sha512",
+    "/Users/janae/.nuget/packages/microsoft.jsinterop/3.1.23/microsoft.jsinterop.3.1.23.nupkg.sha512",
     "/Users/janae/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/janae/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/janae/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",

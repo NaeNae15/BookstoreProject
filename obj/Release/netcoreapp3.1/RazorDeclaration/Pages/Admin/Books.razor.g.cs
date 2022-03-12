@@ -70,7 +70,7 @@ using System.Globalization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 54 "/Users/janae/Desktop/BookstoreProject-Mission_9/Pages/Admin/Books.razor"
+#line 56 "/Users/janae/Desktop/BookstoreProject-Mission_9/Pages/Admin/Books.razor"
        
     public IBookstoreProjectRepository repo => Service;
 
@@ -86,12 +86,7 @@ using System.Globalization;
     }
     public string GetDetailsUrl(long id) => $"/admin/books/details/{id}";
     public string GetEditUrl(long id) => $"/admin/books/edit/{id}";
-
-    public async Task RemoveBook(Book b)
-    {
-        repo.DeleteProduct(b);
-        await UpdateData();
-    }
+    public string GetDeleteUrl(long id) => $"/admin/books/confirm/{id}";
 
 
 #line default

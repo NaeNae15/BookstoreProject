@@ -60,9 +60,8 @@ using System.Globalization;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books/edit/{id:long}")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/create")]
-    public partial class Edit : OwningComponentBase<IBookstoreProjectRepository>
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books/confirm/{id:long}")]
+    public partial class ConfirmDelete : OwningComponentBase<IBookstoreProjectRepository>
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -70,35 +69,29 @@ using System.Globalization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "/Users/janae/Desktop/BookstoreProject-Mission_9/Pages/Admin/Edit.razor"
+#line 27 "/Users/janae/Desktop/BookstoreProject-Mission_9/Pages/Admin/ConfirmDelete.razor"
        
-    public IBookstoreProjectRepository Repository => Service;
     [Inject]
-    public NavigationManager NavManager { get; set; }
+    public IBookstoreProjectRepository repo { get; set; }
     [Parameter]
-    public long Id { get; set; } = 0;
-    public Book Book { get; set; } = new Book();
+    public long Id { get; set; }
+    public Book Book { get; set; }
+    public IEnumerable<Book> BookData { get; set; }
     protected override void OnParametersSet()
     {
-        if (Id != 0)
-        {
-            Book = Repository.Books.FirstOrDefault(p => p.BookId == Id);
-        }
+        Book = repo.Books.FirstOrDefault(p => p.BookId == Id);
     }
-    public void SaveProduct()
+    public async Task UpdateData()
     {
-        if (Id == 0)
-        {
-            Repository.CreateProduct(Book);
-        }
-        else
-        {
-            Repository.SaveProduct(Book);
-        }
-        NavManager.NavigateTo("/admin/books", true);
+        BookData = await repo.Books.ToListAsync();
     }
-    public string ThemeColor => Id == 0 ? "primary" : "warning";
-    public string TitleText => Id == 0 ? "Create" : "Edit";
+    public async Task RemoveBook(Book b)
+    {
+        repo.DeleteProduct(b);
+        await UpdateData();
+    }
+    public string EditUrl => $"/admin/books/edit/{Book.BookId}";
+
 
 #line default
 #line hidden

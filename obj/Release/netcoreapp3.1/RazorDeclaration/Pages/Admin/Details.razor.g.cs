@@ -80,7 +80,7 @@ using System.Globalization;
     {
         Book = Repository.Books.FirstOrDefault(p => p.BookId == Id);
     }
-    public string EditUrl => $"/admin/products/edit/{Book.BookId}";
+    public string EditUrl => $"/admin/books/edit/{Book.BookId}";
 
 #line default
 #line hidden

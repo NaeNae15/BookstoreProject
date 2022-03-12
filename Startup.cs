@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.JSInterop;
 
 namespace BookstoreProject
 {
@@ -76,7 +77,9 @@ namespace BookstoreProject
                     "{bookCategory}",
                     new { Controller = "Home", action = "Index", pageNum = 1 });
 
-                endpoints.MapDefaultControllerRoute();
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
 
                 endpoints.MapRazorPages();
 
