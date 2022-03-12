@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{F70EC3A0-7BA3-4E83-ABC9-1D27EC6FBAA9}|Default">
+  <MonoDevelop.Ide.ItemProperties.BookstoreProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/Orders.razor">
+    <Files>
+      <File FileName="Pages/Admin/Books.razor" Line="64" Column="6" />
+      <File FileName="Pages/Admin/Edit.razor" Line="2" Column="31" />
+      <File FileName="Pages/Admin/Details.razor" Line="6" Column="50" />
+      <File FileName="Pages/Admin/Orders.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookstoreProject" expanded="True">
+            <Node name="BookstoreProject" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Orders.razor" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
